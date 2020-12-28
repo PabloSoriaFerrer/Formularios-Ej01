@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>FORMULARIOS</h1>
+
+    <div class="a" >
+            <h3>Accede a tu Area Clientes</h3>
+            <fieldset>
+                <form action="web.php" method="GET" >
+                    <input type="radio" name="boton" value="DNI">DNI o Tarjeta de Residencia<br>
+                    <input type="radio" name="boton" value="Pasaporte">Pasaporte<br>
+                    <p>Numero de Documento</p>
+                    <input type="text" name="documento" id="num" placeholder="Introduzca el nº de documento">
+                    <p>Fecha de Nacimiento</p>
+                    <input type="date" name="fecha">
+                    <p><input type="checkbox" name="Recordar">Recordar</p>  
+
+                    <input type="submit" value="Enviar">
+
+                </form>
+            </fielset>
+            
+    </div>
+
+</body>
+</html>
